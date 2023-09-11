@@ -1,0 +1,126 @@
+.popup {
+    height: 16rem;
+    width: 37rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 20px;
+  }
+  
+  .popup_title {
+    text-align: left;
+    height: 2rem;
+    width: 29rem;
+    font-size: 3.2vh;
+    font-weight: 700;
+    margin: 0 9vh 2vh 1vh;
+  }
+  
+  .popup_input {
+      height: 2rem;
+    width: 29rem;
+    font-size: 3vh;
+    font-weight: 600;
+    display: flex;
+    gap: 2vw;
+    align-items: center;
+    margin: 1vh 1vh 1vh 1vh;
+  }
+  
+  .popup_input > span{
+    height: 2rem;
+  width: 30rem;
+}
+  
+  .popup_input > input {
+    width: 17vw;
+    height: 3vh;
+    border: 2px solid grey;
+    border-radius: 6vh;
+    padding: 0.5rem;
+    font-size: 2vh;
+    font-weight: 600;
+  }
+  
+  .popup_choose_color {
+  
+    font-size: 3vh;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    align-items: center;
+    margin: 2vh 1vh 1vh 1vh;
+  }
+  
+  .popup_color {
+    display: flex;
+    gap: 1vw;
+  }
+  
+  .popup_color_1,
+  .popup_color_2,
+  .popup_color_3,
+  .popup_color_4,
+  .popup_color_5,
+  .popup_color_6 {
+    width: 3vh;
+    height: 3vh;
+    border-radius: 50%;
+    border: none;
+    cursor: pointer;
+    background-color: black;
+  }
+  
+  .popup_color_1{
+      background-color: #B38BFA;
+  }
+  
+  .popup_color_2{
+      background-color: #FF79F2;
+  }
+  
+  .popup_color_3{
+      background-color: #43E6FC;
+  }
+  
+  .popup_color_4{
+      background-color: #F19576;
+  }
+  
+  .popup_color_5{
+      background-color: #0047FF;
+  }
+  
+  .popup_color_6{
+      background-color: #6691FF;
+  }
+  
+  .popup_close {
+    height: 2rem;
+    width: 23rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 1vh 1vh 1vh 1vh;
+  }
+  
+  .popup_close > button {
+    margin-top: 1rem;
+    height: 5vh;
+    width: 8vw;
+    color: white;
+    font-weight: 500;
+    border: none;
+    border-radius: 4vh;
+    background-color: black;
+  }
+  
+  

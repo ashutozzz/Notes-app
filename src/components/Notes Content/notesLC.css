@@ -1,0 +1,41 @@
+
+.notes_content_time{
+    margin: 0 1vh 0 1vh;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.notes_content_details{
+    min-height: 15vh;
+    height: auto;
+    width: 50vw;
+    text-align: left;
+    margin: 5vh 2vh 0 0;
+    white-space: "pre-wrap";
+}
+.notes_content_note{
+    display: flex;
+    justify-content: space-between;
+    gap: 1vw;
+    align-items: center;
+    min-height: 15vh;
+    height: auto;
+    width: 76vw;
+    background-color: #F7ECDC;
+}
+
+.notes_content_date_time_details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 15vh;
+    width: 15vw;
+    background-color: #F7ECDC;
+}
+
+.notes_content_date{
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 1vh;
+}

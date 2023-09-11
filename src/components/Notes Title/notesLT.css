@@ -1,0 +1,32 @@
+
+.title_logo{
+    height: 7vh;
+    width: 7vh;
+    border-radius: 50%;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3vh;
+    font-weight: 500;
+    color: white;
+}
+
+.highlighted_title{
+    background-color: #F7ECDC;
+    color: black;
+}
+.group_title_logo{
+    margin: 1vw 0 1vw 0.5vw;
+    border-radius: 4vh 0 0 4vh;
+    height: 10vh;
+    width: 23vw;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+    padding-left: 3vw;
+    font-size: 1rem;
+    font-weight: 600;
+}
